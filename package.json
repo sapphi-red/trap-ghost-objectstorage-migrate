@@ -1,0 +1,17 @@
+{
+  "name": "trap-ghost-objectstorage-migrate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sapphi-red <green@sapphi.red> (https://github.com/sapphi-red)",
+  "license": "MIT",
+  "dependencies": {
+    "file-type": "^13.1.1",
+    "klaw": "^3.0.0",
+    "pkgcloud": "github:louis-sanna/pkgcloud#09278bb7eb7c50dbb2b2eb196664f0d58b29adb6",
+    "sharp": "^0.24.0"
+  }
+}
