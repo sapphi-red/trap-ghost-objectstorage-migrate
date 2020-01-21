@@ -17,7 +17,8 @@ module.exports = async () => {
     container: config.container
   })
 
-  //client.getFiles(containerName, (err, files) => console.log(JSON.stringify(files.map(file => file.name))))
+  // maybe not all files
+  //client.getFiles(containerName, (err, files) => writeFile('./files.json', JSON.stringify(files.map(file => file.name)), 'utf8'))
 
   const files = []
   await new Promise(resolve => {
