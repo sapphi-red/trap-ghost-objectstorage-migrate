@@ -67,6 +67,8 @@ module.exports = () => {
 
           await fs.rename(item.path, newName)
           await fs.rename(out, item.path)
+
+          console.log('Optimized:', path.relative(path.join(__dirname, 'data'), item.path))
         } catch (e) {
           console.error(path.relative(path.join(__dirname, 'data'), item.path), e)
         }
